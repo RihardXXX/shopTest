@@ -266,7 +266,7 @@
               id: uuidv4(),
               group: names[item.G].G,
               product: names[item.G].B[item.T],
-              priceDollar: item.C,
+              priceDollar: Math.round(item.C),
               total: item.P
             }))
       }
